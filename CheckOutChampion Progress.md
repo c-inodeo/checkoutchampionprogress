@@ -1,11 +1,14 @@
 **Tasks/In Progress**
  - [x] Refactor Code - add Service layer for each controller that existed business logic ✅ 2024-07-03
- - [ ] Add Search functionality - in progress as of 03/07
+ - [x] Add Search functionality, can search by name or product category - in progress as of 03/07 ✅ 2024-07-03
+ - [ ] Add multiple tags for Category
+ - [ ] Add Service for HomeController
 
 **Updates:** 
-- Added Service for CartController
+- Added Service for CartController 
 - Added Service for CategoryController
 - Added Service for ProductController
+- Added Truncate for cards to have same height and search for products and category
 
 **Plans for the future**
 - Implement a Blob Container
