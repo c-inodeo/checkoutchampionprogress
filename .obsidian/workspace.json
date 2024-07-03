@@ -144,8 +144,25 @@
                 "file": "CheckOutChampion Progress.md"
               }
             }
+          },
+          {
+            "id": "091ae8f0f5ade9fe",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "70a6dec28b49c92f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -161,16 +178,17 @@
       "command-palette:Open command palette": false,
       "github-sync:Sync with Remote": false,
       "yet-another-obsidian-synchronizer:YAOS": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
   "active": "beba4d289b2c91f0",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "CheckOutChampion Progress.md",
-    "Untitled 1.canvas",
-    "Untitled",
     "Diagram.canvas",
+    "CheckOutChampion Progress.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "CheckOutChampion",
     "Welcome.md",
     "create a link.md",
     "2024-07-01.md"

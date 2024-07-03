@@ -1,4 +1,7 @@
 [
   "github-sync",
-  "yet-another-obsidian-synchronizer"
+  "yet-another-obsidian-synchronizer",
+  "obsidian-tasks-plugin",
+  "obsidian-day-planner",
+  "obsidian-checklist-plugin"
 ]
