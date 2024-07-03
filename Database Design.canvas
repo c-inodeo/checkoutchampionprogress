@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"c69f4cd89b4e299b","type":"text","text":"dbo.Products\n- Id\n- ProductName\n- Description\n- Price\n- CategoryId\n- ImageUrl\n","x":-420,"y":-100,"width":201,"height":260},
+		{"id":"3c26909a5fe106bc","type":"text","text":"dbo.Categories\n- Id\n- Name\n- DisplayOrder\n","x":-120,"y":-100,"width":201,"height":260},
+		{"id":"008d8dfd1d28791f","x":160,"y":-100,"width":200,"height":260,"type":"text","text":"dbo.CartItems\n- UserId\n- ProductId\n- Quantity\n- DateAdded"},
+		{"id":"2eb44cb1961adba6","type":"text","text":"IdentityUser DB\n- dbo.AspNetUsers\n- dbo.AspNetUserRoles\n- dbo.AspNetRoles","x":81,"y":-350,"width":279,"height":160},
+		{"id":"85de038a0e456a33","x":-420,"y":-300,"width":372,"height":60,"type":"text","text":"**CheckOutChampion Database Structure**"},
+		{"id":"ef42ac3bcb26fc02","x":-420,"y":-220,"width":250,"height":60,"type":"text","text":"Code first - EF"}
+	],
+	"edges":[
+		{"id":"51215b928b0054c7","fromNode":"c69f4cd89b4e299b","fromSide":"right","toNode":"3c26909a5fe106bc","toSide":"left"},
+		{"id":"c9db1f60854673a1","fromNode":"c69f4cd89b4e299b","fromSide":"bottom","toNode":"008d8dfd1d28791f","toSide":"bottom"},
+		{"id":"2a28fca0648aab7d","fromNode":"2eb44cb1961adba6","fromSide":"bottom","toNode":"008d8dfd1d28791f","toSide":"top"}
+	]
+}
