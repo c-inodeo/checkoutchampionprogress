@@ -1,4 +1,5 @@
 **Progress notes for CheckOutChampion website**
+
 Contains:
   - Tasks
   - Daily updates
