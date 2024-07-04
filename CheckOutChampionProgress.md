@@ -2,7 +2,9 @@
  - [x] Refactor Code - add Service layer for each controller that existed business logic ✅ 2024-07-03
  - [x] Add Search functionality, can search by name or product category - in progress as of 03/07 ✅ 2024-07-03
  - [ ] Add multiple tags for Category
- - [ ] Add Service for HomeController
+	 - [ ] Challenges: had to update my database for it to be able to add multiple category, since the last one only accepts one category
+ - [ ] Implement a blob container
+ - [ ] Add Service for HomeController - to follow
  - [x] Implement a session management while navigating the site, so that shopping cart retains current items. ✅ 2024-07-04
 
 **Updates:** 
