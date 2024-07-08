@@ -5,9 +5,11 @@
 	 - [x] Challenges: had to update my database for it to be able to add multiple category, since the last one only accepts one category ✅ 2024-07-05
 	 - [x] Added Product Category many-to-many relationship, Can update the product to have many categories ✅ 2024-07-08
 	 - [x] Bug: Can't create a new product with multiple Category ✅ 2024-07-08
- - [ ] Implement a blob container
  - [x] Add Service for HomeController - to follow ✅ 2024-07-08
  - [x] Implement a session management while navigating the site, so that shopping cart retains current items. ✅ 2024-07-04
+ - [ ] mplement a blob container
+	 - [ ] had challenges with this error after using **await containerClient.CreateIfNotExistsAsync();** 
+		 - [ ] Error Message: 'The REST version of this request is not supported by this release of the Storage Emulator. Please upgrade the storage emulator to the latest version. Refer to the following URL for more information: http://go.microsoft.com/fwlink/?LinkId=392237
 
 **Updates:** 
 - Added Service for CartController 
