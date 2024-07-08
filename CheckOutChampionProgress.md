@@ -1,12 +1,12 @@
 **Tasks/In Progress**
  - [x] Refactor Code - add Service layer for each controller that existed business logic ✅ 2024-07-03
  - [x] Add Search functionality, can search by name or product category - in progress as of 03/07 ✅ 2024-07-03
- - [ ] Add multiple tags for Category
+ - [x] Add multiple tags for Category ✅ 2024-07-08
 	 - [x] Challenges: had to update my database for it to be able to add multiple category, since the last one only accepts one category ✅ 2024-07-05
-	 - [ ] Added Product Category many-to-many relationship, Can update the product to have many categories
-	 - [ ] Bug: Can't create a new product with multiple Category
+	 - [x] Added Product Category many-to-many relationship, Can update the product to have many categories ✅ 2024-07-08
+	 - [x] Bug: Can't create a new product with multiple Category ✅ 2024-07-08
  - [ ] Implement a blob container
- - [ ] Add Service for HomeController - to follow
+ - [x] Add Service for HomeController - to follow ✅ 2024-07-08
  - [x] Implement a session management while navigating the site, so that shopping cart retains current items. ✅ 2024-07-04
 
 **Updates:** 
@@ -17,8 +17,8 @@
 
 **Plans for the future**
 - I**mplement a Blob Container -  Azure Storage Emulator (Research)**
-- Product can belong to one or more category
-- Session Management
+- Product can belong to one or more category - **DONE**
+- Session Management - **DONE**
 
 **Category Management:**
 - [x] Create, update, and delete product categories. ✅ 2024-07-03
