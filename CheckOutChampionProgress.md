@@ -7,9 +7,9 @@
 	 - [x] Bug: Can't create a new product with multiple Category ✅ 2024-07-08
  - [x] Add Service for HomeController - to follow ✅ 2024-07-08
  - [x] Implement a session management while navigating the site, so that shopping cart retains current items. ✅ 2024-07-04
- - [ ] mplement a blob container
-	 - [ ] had challenges with this error after using **await containerClient.CreateIfNotExistsAsync();** 
-		 - [ ] Error Message: 'The REST version of this request is not supported by this release of the Storage Emulator. Please upgrade the storage emulator to the latest version. Refer to the following URL for more information: http://go.microsoft.com/fwlink/?LinkId=392237
+ - [x] mplement a blob container ✅ 2024-07-09
+	 - [x] had challenges with this error after using **await containerClient.CreateIfNotExistsAsync();** ✅ 2024-07-09
+		 - [x] Error Message: 'The REST version of this request is not supported by this release of the Storage Emulator. Please upgrade the storage emulator to the latest version. Refer to the following URL for more information: http://go.microsoft.com/fwlink/?LinkId=392237 ✅ 2024-07-09
 
 **Updates:** 
 - Added Service for CartController 
@@ -18,9 +18,10 @@
 - Added Truncate for cards to have same height and search for products and category
 
 **Plans for the future**
-- I**mplement a Blob Container -  Azure Storage Emulator (Research)**
+- Implement a Blob Container -  Azure Storage Emulator (Research) - **DONE**
 - Product can belong to one or more category - **DONE**
 - Session Management - **DONE**
+- Add documentation as stated on the exercise instruction
 
 **Category Management:**
 - [x] Create, update, and delete product categories. ✅ 2024-07-03
