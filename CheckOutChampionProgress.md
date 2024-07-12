@@ -10,12 +10,14 @@
  - [x] mplement a blob container ✅ 2024-07-09
 	 - [x] had challenges with this error after using **await containerClient.CreateIfNotExistsAsync();** ✅ 2024-07-09
 		 - [x] Error Message: 'The REST version of this request is not supported by this release of the Storage Emulator. Please upgrade the storage emulator to the latest version. Refer to the following URL for more information: http://go.microsoft.com/fwlink/?LinkId=392237 ✅ 2024-07-09
+ - [x] Refactor Add Controller files to Controllers folder ✅ 2024-07-12
 
 **Updates:** 
 - Added Service for CartController 
 - Added Service for CategoryController
 - Added Service for ProductController
 - Added Truncate for cards to have same height and search for products and category
+- Refactor Controller
 
 **Plans for the future**
 - Implement a Blob Container -  Azure Storage Emulator (Research) - **DONE**
@@ -29,10 +31,10 @@
 
 **Product Listings and Details:**
  - [x] Display a paginated list of products with their images, names, prices, and brief descriptions. ✅ 2024-07-03
- - [ ] Images should be coming from blob container.
+ - [x] Images should be coming from blob container. ✅ 2024-07-11
  - [x] Implement a product search feature allowing users to search for products by name or category. ✅ 2024-07-04
  - [x] Create a product details page that shows more information about a selected product. ✅ 2024-07-03
- - [ ] A product can belong to one or more categories.
+ - [x] A product can belong to one or more categories. ✅ 2024-07-11
 
 **Shopping Cart:**
  - [x] Allow users to add products to their shopping cart. ✅ 2024-07-03
