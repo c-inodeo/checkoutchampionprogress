@@ -13,7 +13,7 @@
  - [x] Refactor Add Controller files to Controllers folder ✅ 2024-07-12
  - [x] System.Text.Json and Newtonsoft.Json are libraries that achieve something similar. However System.Text.Json yields better performance, please use this library moving forward ✅ 2024-07-15
  - [x] Please simplify your controller methods, rather than having several parameters like in the following: public IActionResult AddToCart(int productId, int quantity, bool isIncrement), you may pass a CartItemDto instead. Then you can map into into an Entity class that Entity Framework can understand ✅ 2024-07-15
- - [ ] Please implement the async/await pattern in your application following these guidelines: [https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
+ - [x] Please implement the async/await pattern in your application following these guidelines: [https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md) ✅ 2024-07-16
 
 **Updates:** 
 - Added Service for CartController 
@@ -29,7 +29,7 @@
 - Add documentation as stated on the exercise instruction - **IN PROGRESS**
 - System.Text.Json and Newtonsoft.Json are libraries that achieve something similar. However System.Text.Json yields better performance, please use this library moving forward - **DONE**
 - Please simplify your controller methods, rather than having several parameters like in the following: public IActionResult AddToCart(int productId, int quantity, bool isIncrement), you may pass a CartItemDto instead. Then you can map into into an Entity class that Entity Framework can understand - **DONE**
-- Please implement the async/await pattern in your application following these guidelines: [https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
+- Please implement the async/await pattern in your application following these guidelines: [https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md) - **DONE**
 
 **Category Management:**
 - [x] Create, update, and delete product categories. ✅ 2024-07-03
