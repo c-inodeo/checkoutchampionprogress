@@ -19,18 +19,18 @@
 		 - [x] CartRepository ✅ 2024-07-17
 		 - [x] CategoryRepository ✅ 2024-07-17
 		 - [x] ProductCategoryRepository ✅ 2024-07-17
-		 - [ ] Repository
-		 - [ ] UnitOfWork
+		 - [x] Repository ✅ 2024-07-17
+		 - [x] UnitOfWork ✅ 2024-07-17
 	 - [ ] Services
-		 - [ ] AzureBlobStorage
+		 - [x] AzureBlobStorage ✅ 2024-07-17
 		 - [x] CartService ✅ 2024-07-17
 		 - [x] CategoryService ✅ 2024-07-17
-		 - [ ] HomeService
+		 - [x] HomeService ✅ 2024-07-17
 		 - [x] ProductService ✅ 2024-07-17
 	 - [ ] Controllers
 		 - [x] CartController ✅ 2024-07-17
 		 - [x] CategoryController ✅ 2024-07-17
-		 - [ ] HomeController
+		 - [x] HomeController ✅ 2024-07-17
 		 - [x] ProductController ✅ 2024-07-17
 
 **Updates:** 
