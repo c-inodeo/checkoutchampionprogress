@@ -13,7 +13,25 @@
  - [x] Refactor Add Controller files to Controllers folder ✅ 2024-07-12
  - [x] System.Text.Json and Newtonsoft.Json are libraries that achieve something similar. However System.Text.Json yields better performance, please use this library moving forward ✅ 2024-07-15
  - [x] Please simplify your controller methods, rather than having several parameters like in the following: public IActionResult AddToCart(int productId, int quantity, bool isIncrement), you may pass a CartItemDto instead. Then you can map into into an Entity class that Entity Framework can understand ✅ 2024-07-15
- - [x] Please implement the async/await pattern in your application following these guidelines: [https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md) ✅ 2024-07-16
+ - [ ] Please implement the async/await pattern in your application following these guidelines: [https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
+	 - [ ] Repository
+		 - [x] ProductRepository ✅ 2024-07-17
+		 - [x] CartRepository ✅ 2024-07-17
+		 - [x] CategoryRepository ✅ 2024-07-17
+		 - [x] ProductCategoryRepository ✅ 2024-07-17
+		 - [ ] Repository
+		 - [ ] UnitOfWork
+	 - [ ] Services
+		 - [ ] AzureBlobStorage
+		 - [x] CartService ✅ 2024-07-17
+		 - [x] CategoryService ✅ 2024-07-17
+		 - [ ] HomeService
+		 - [x] ProductService ✅ 2024-07-17
+	 - [ ] Controllers
+		 - [x] CartController ✅ 2024-07-17
+		 - [x] CategoryController ✅ 2024-07-17
+		 - [ ] HomeController
+		 - [x] ProductController ✅ 2024-07-17
 
 **Updates:** 
 - Added Service for CartController 
@@ -30,6 +48,7 @@
 - System.Text.Json and Newtonsoft.Json are libraries that achieve something similar. However System.Text.Json yields better performance, please use this library moving forward - **DONE**
 - Please simplify your controller methods, rather than having several parameters like in the following: public IActionResult AddToCart(int productId, int quantity, bool isIncrement), you may pass a CartItemDto instead. Then you can map into into an Entity class that Entity Framework can understand - **DONE**
 - Please implement the async/await pattern in your application following these guidelines: [https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md) - **DONE**
+- Implement a pagination in home page for products
 
 **Category Management:**
 - [x] Create, update, and delete product categories. ✅ 2024-07-03
